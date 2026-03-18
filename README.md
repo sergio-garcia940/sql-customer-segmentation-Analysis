@@ -1,25 +1,52 @@
-# Customer-Segmentation-SQL-Project
-Customer segmentation analysis using SQL and BigQuery to identify high-value customers and revenue distribution.
-Customer Segmentation Analysis
+Customer Segmentation Analysis (SQL & BigQuery)
 
-This project analyzes customer spending behavior using SQL in BigQuery.
+Overview
+This project analyzes customer spending behavior using SQL in BigQuery to identify high-value customers and understand revenue distribution.
+
+---
 
 Objectives
+- Identify high-value customers
+- Segment users based on total spending
+- Analyze revenue contribution by segment
 
-Identify high-value customers
+---
 
-Segment users based on total spending
+Tools & Technologies
+- SQL (Google BigQuery)
+- Data Analysis Techniques
 
-Analyze revenue contribution by segment
+---
 
 Key Techniques
+- SQL Aggregations
+- Window Functions
+- NTILE() for customer segmentation
 
-SQL Aggregations
+---
 
-Window Functions
+Analysis Process
+1. Clean and prepare customer transaction data  
+2. Calculate total spending per customer  
+3. Apply NTILE() to divide customers into segments  
+4. Analyze revenue contribution by each segment  
 
-NTILE segmentation
+---
 
-Insights
+Key Insights
+- A small percentage of customers generates the majority of revenue  
+- High-value customers have a disproportionate impact on total sales  
+- Customer segmentation helps prioritize retention strategies  
 
-The analysis shows that a small percentage of customers generate the majority of revenue, highlighting the importance of high-value customer retention strategies.
+---
+
+ Project Structure
+- `queries.sql` → SQL queries used in the analysis  
+- `dataset.csv` → Dataset (if included)  
+
+---
+
+Future Improvements
+- Add visualization (Power BI / Tableau)
+- Include customer demographics
+- Build predictive segmentation model
