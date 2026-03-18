@@ -1,3 +1,4 @@
+--This query identifies the percentage of high-tier customers who generate the highest revenue--
 WITH customer_spending AS (
 SELECT
 o.customer_id,
