@@ -1,3 +1,4 @@
+-- Calculate total spending by customer--
 SELECT
 o.customer_id,
 SUM(p.payment_value) AS total_spent
