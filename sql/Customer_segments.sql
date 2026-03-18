@@ -1,3 +1,4 @@
+--Categorizing customers based on their total spend--
 SELECT
 customer_id,
 total_spent,
